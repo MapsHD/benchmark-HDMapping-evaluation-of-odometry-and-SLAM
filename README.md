@@ -205,6 +205,10 @@ Execute following command:
 
 ```bash
 cd <benchmark-root>/trajectories_TUM
+evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping_trajectory_tum.txt -a
+evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-ct-icp_trajectory_tum.txt -a
+evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-dlio_trajectory_tum.txt -a
+evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-dlo_trajectory_tum.txt -a
 evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-faster-lio_trajectory_tum.txt -a
 evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-fast-lio_trajectory_tum.txt -a
 evo_ape.exe tum ground_truth_trajectory_tum.txt output_hdmapping-genz_trajectory_tum.txt -a
@@ -298,4 +302,5 @@ Concatenate results into following table (RPE - relative pose error):
 | voxel_map          | -        | -        | -        | -        | -        | -         | -       |
 
 ## MOVIE
+
 
